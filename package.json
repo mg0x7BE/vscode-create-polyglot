@@ -1,5 +1,9 @@
 {
 	"name": "vscode-create-jupyter",
+	"license": "MIT",
+	"publisher": "engineernick",
+	"author": {"name": "Nicholas Archer"},
+	"repository":"https://github.com/thehappycheese/vscode-create-jupyter",
 	"displayName": "vscode_create_jupyter",
 	"description": "Adds a button for creating a new jupyter notebook to the left bar",
 	"version": "0.0.1",
@@ -9,13 +13,11 @@
 	"categories": [
 		"Other"
 	],
-	"activationEvents": [
-        "onCommand:vscode-create-jupyter.helloWorld"
-	],
+	"activationEvents": [],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"viewsContainers": {
-			"activitybar":[
+			"activitybar": [
 				{
 					"id": "jupyter_launcher",
 					"title": "Jupyter Launcher",
@@ -24,17 +26,21 @@
 			]
 		},
 		"views": {
-			"jupyter_launcher": [{
-				"id": "launcher_view",
-				"name": "Jupyter Launcher",
-				"icon": "./resources/jupyter_icon_plain.svg",
-				"contextualTitle": "Jupyter Launcher ConTitle"
-			}]
+			"jupyter_launcher": [
+				{
+					"id": "launcher_view",
+					"name": "Jupyter Launcher",
+					"icon": "./resources/jupyter_icon_plain.svg",
+					"contextualTitle": "Jupyter Launcher ConTitle"
+				}
+			]
 		},
-		"viewsWelcome": [{
-			"view":"launcher_view",
-			"contents":"[Create a new Jupyter Notebook](command:jupyter.createnewnotebook)"
-		}]
+		"viewsWelcome": [
+			{
+				"view": "launcher_view",
+				"contents": "[Create a new Jupyter Notebook](command:jupyter.createnewnotebook)"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
@@ -48,19 +54,19 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.63.0",
 		"@types/glob": "^7.2.0",
 		"@types/mocha": "^9.0.0",
 		"@types/node": "14.x",
+		"@types/vscode": "^1.63.0",
 		"@typescript-eslint/eslint-plugin": "^5.9.1",
 		"@typescript-eslint/parser": "^5.9.1",
+		"@vscode/test-electron": "^2.0.3",
 		"eslint": "^8.6.0",
 		"glob": "^7.2.0",
 		"mocha": "^9.1.3",
-		"typescript": "^4.5.4",
 		"ts-loader": "^9.2.6",
+		"typescript": "^4.5.4",
 		"webpack": "^5.66.0",
-		"webpack-cli": "^4.9.1",
-		"@vscode/test-electron": "^2.0.3"
+		"webpack-cli": "^4.9.2"
 	}
 }
