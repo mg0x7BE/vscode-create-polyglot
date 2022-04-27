@@ -1,4 +1,6 @@
-# vscode-create-jupyter
+# Create Jupyter - Buttons
+
+(previously called `vscode-create-jupyter`)
 
 Adds an activity to the left bar with a few buttons
 including "Create New Jupyter Notebook"
