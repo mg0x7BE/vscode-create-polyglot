@@ -3,10 +3,13 @@
 	"license": "MIT",
 	"publisher": "engineernick",
 	"author": {"name": "Nicholas Archer"},
-	"repository":"https://github.com/thehappycheese/vscode-create-jupyter",
+	"repository":{
+		"type": "git",
+		"url": "https://github.com/thehappycheese/vscode-create-jupyter"
+	},
 	"displayName": "Create Jupyter - Buttons",
 	"description": "Adds a few buttons for creating and modifying a new Jupyter notebook to the activity bar",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"icon": "main_icon.png",
 	"engines": {
 		"vscode": "^1.63.0"
