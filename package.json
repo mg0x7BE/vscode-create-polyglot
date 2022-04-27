@@ -4,9 +4,10 @@
 	"publisher": "engineernick",
 	"author": {"name": "Nicholas Archer"},
 	"repository":"https://github.com/thehappycheese/vscode-create-jupyter",
-	"displayName": "vscode_create_jupyter",
-	"description": "Adds a button for creating a new jupyter notebook to the left bar",
-	"version": "0.0.2",
+	"displayName": "Create Jupyter - Buttons",
+	"description": "Adds a few buttons for creating and modifying a new Jupyter notebook to the activity bar",
+	"version": "0.0.3",
+	"icon": "./resources/main_icon.png",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
