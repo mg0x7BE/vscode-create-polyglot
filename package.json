@@ -6,7 +6,7 @@
 	"repository":"https://github.com/thehappycheese/vscode-create-jupyter",
 	"displayName": "vscode_create_jupyter",
 	"description": "Adds a button for creating a new jupyter notebook to the left bar",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
@@ -38,7 +38,7 @@
 		"viewsWelcome": [
 			{
 				"view": "launcher_view",
-				"contents": "[Create a new Jupyter Notebook](command:jupyter.createnewnotebook)"
+				"contents": "[Create a new Jupyter Notebook](command:ipynb.newUntitledIpynb)"
 			}
 		]
 	},
