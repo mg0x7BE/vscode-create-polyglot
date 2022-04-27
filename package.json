@@ -38,7 +38,7 @@
 		"viewsWelcome": [
 			{
 				"view": "launcher_view",
-				"contents": "[Create a new Jupyter Notebook](command:ipynb.newUntitledIpynb)"
+				"contents": "[Create a new Jupyter Notebook](command:ipynb.newUntitledIpynb)\n[Create a new Interactive Window](command:jupyter.createnewinteractive)\n[Join Cell Above](command:notebook.cell.joinAbove)\n[Split Cell at Cursor](command:notebook.cell.split)\n[Join Cell Below](command:notebook.cell.joinBelow)"
 			}
 		]
 	},
