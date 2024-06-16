@@ -2,6 +2,7 @@
   "name": "vscode-create-polyglot",
   "displayName": "Create Polyglot - Button",
   "description": "Adds a button the Activity Bar to create a new Polyglot Notebook",
+  "publisher": "MaxGripe",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"
