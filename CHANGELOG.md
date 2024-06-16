@@ -1,3 +1,3 @@
-## 1.0.0 (June 14, 2024)
+## 1.0.0 (June 16, 2024)
 
 - Initial release
