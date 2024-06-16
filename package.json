@@ -3,7 +3,7 @@
   "displayName": "Create Polyglot - Button",
   "description": "Adds a button the Activity Bar to create a new Polyglot Notebook",
   "publisher": "MaxGripe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },
