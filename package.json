@@ -1,7 +1,7 @@
 {
   "name": "vscode-create-polyglot",
   "displayName": "Create Polyglot - Button",
-  "description": "Adds buttons for creating and managing Polyglot notebooks to the activity bar",
+  "description": "Adds a button the Activity Bar to create a new Polyglot Notebook",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"
@@ -37,6 +37,12 @@
 			}
 		]
 	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxGripe/vscode-create-polyglot.git"
+  },
+  "homepage": "https://github.com/MaxGripe/vscode-create-polyglot/"
+  ,
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
