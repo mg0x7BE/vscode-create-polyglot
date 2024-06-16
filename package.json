@@ -1,0 +1,59 @@
+{
+  "name": "vscode-create-polyglot",
+  "displayName": "Create Polyglot - Button",
+  "description": "Adds buttons for creating and managing Polyglot notebooks to the activity bar",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "polyglot_launcher",
+					"title": "Polyglot Launcher",
+					"icon": "./resources/polyglot_icon_plain.svg"
+				}
+			]
+		},
+		"views": {
+			"polyglot_launcher": [
+				{
+					"id": "launcher_view",
+					"name": "Polyglot Launcher",
+					"icon": "./resources/polyglot_icon_plain.svg",
+					"contextualTitle": "Polyglot Launcher ConTitle"
+				}
+			]
+		},
+		"viewsWelcome": [
+			{
+				"view": "launcher_view",
+				"contents": "[Create a new Polyglot Notebook](command:polyglot-notebook.newNotebook)\n[Join Cell Above](command:notebook.cell.joinAbove)\n[Split Cell at Cursor](command:notebook.cell.split)\n[Join Cell Below](command:notebook.cell.joinBelow)"
+			}
+		]
+	},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  }
+}
