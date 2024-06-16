@@ -10,6 +10,7 @@
   "categories": [
     "Other"
   ],
+  "icon": "./resources/polyglot_logo.png",
   "main": "./out/extension.js",
 	"contributes": {
 		"viewsContainers": {
