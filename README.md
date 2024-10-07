@@ -1,3 +1,9 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/MaxGripe/vscode-create-polyglot)
+![GitHub License](https://img.shields.io/github/license/MaxGripe/vscode-create-polyglot)
+![GitHub Created At](https://img.shields.io/github/created-at/MaxGripe/vscode-create-polyglot)
+![GitHub forks](https://img.shields.io/github/forks/MaxGripe/vscode-create-polyglot)
+![GitHub Repo stars](https://img.shields.io/github/stars/MaxGripe/vscode-create-polyglot)
+
 # Create Polyglot - Button
 
 Adds a button to the Activity Bar to create a new Polyglot Notebook.
