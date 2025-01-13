@@ -4,8 +4,6 @@
 ![GitHub forks](https://img.shields.io/github/forks/MaxGripe/vscode-create-polyglot)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MaxGripe/vscode-create-polyglot)
 
-⚠️ This repository has been archived. Visual Studio Code is pure garbage and causes too many issues. I am switching to JetBrains Rider.
-
 # Create Polyglot - Button
 
 Adds a button to the Activity Bar to create a new Polyglot Notebook.
